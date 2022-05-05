@@ -1,0 +1,27 @@
+/*desktop view*/
+@media only screen and (min-width: 376px){
+.main{
+    background-image: url('social-proof-section-master/images/bg-pattern-top-desktop.svg'), 
+    url('social-proof-section-master/images/bg-pattern-bottom-desktop.svg');
+    background-position: top left, 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Spartan", serif;
+    background-size: 500px 300px, 1000px 600px;
+}
+
+}
+/*mobile view*/
+@media only screen and (max-width: 375px){
+    .main{
+        background-image: url('social-proof-section-master/images/bg-pattern-top-mobile.svg'), 
+        url('social-proof-section-master/images/bg-pattern-bottom-mobile.svg');
+        background-position: top left, 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: "Spartan", serif;
+        background-size: 374px 232px, 375px 250px;
+        height: 1440px;
+    }
+
+}

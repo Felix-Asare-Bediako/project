@@ -1,0 +1,237 @@
+/*desktop view*/
+@media only screen and (min-width: 376px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.line-1{
+    display: flex;
+    position: absolute;
+    width: 1110px;
+    height: 235px;
+    left: 150px;
+    top: 65px;
+}
+.paragraph{
+    width: 500px;
+    font-style: normal;
+}
+#heading{
+    height: 154px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.71429px;
+    color: #512051;
+}
+#content{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    color: #927B91;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 0.8rem;
+    margin-left: 50px;
+}
+.rate-style{
+    display: flex;
+    width: 445px;
+    height: 56px;
+    background-color: #f7f2f8;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 20px;
+}
+#rate-2{
+    margin-left: 50px;
+}
+#rate-3{
+    margin-left: 100px;
+}
+.stars{
+    margin: 20px;
+}
+#rate-description{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: #512051;
+}
+.line-2{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    position: absolute;
+    left: 155px;
+    top: 355px;
+    grid-gap: 1rem;
+}
+.image-name{
+    display: flex;
+    gap: 0.8rem;
+}
+#profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.name-status{
+    width: 150px;
+    height: 34px;
+    font-style: normal;
+    line-height: 25px;
+}
+#name{
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 13px;
+}
+#status{
+    color: #EE69A4;
+    font-weight: 400px;
+    font-size: 13px;
+}
+#grid-contents{
+    width: 286px;
+    height: 88px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.232143px;
+    margin-top: 15px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+#grid-item{
+    background-color: #512051;
+    grid-column-gap: 2rem;
+    border-radius: 8px;
+    width: 350px;
+    height: 234px;
+    padding: 35px;
+}
+.item-2{
+    margin-top: 20px;
+}
+.item-3{
+    margin-top: 40px;
+}
+}
+
+/*mobile view*/
+@media only screen and (max-width: 375px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .paragraph{
+        width: 327px;
+        height: 220px;
+        text-align: center;
+        margin: 50px 10px 0 10px;
+        font-style: normal;
+    }
+    #heading{
+        color: #512051;
+        font-weight: 700;
+        font-size: 32px;
+        letter-spacing: -1.14286px;
+        line-height: 32px;
+    }
+    #content{
+        color: #927B91;
+        line-height: 18px;
+        font-weight: 500;
+        font-size: 15px;
+        word-spacing: 3.8px;
+        padding-top: 20px;
+    }
+.rating{
+    display: flex;
+    flex-direction: column;
+    height: 266px;
+    gap: 0.8rem;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.rate-style{
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    height: 70px;
+    background-color: #f7f2f8;
+    border-radius: 5px;
+    align-items: center;
+    padding-top: 15px;    
+}
+#rate-description{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #512051;
+    padding-top: 2px;
+}
+.line-2{
+    display: grid;
+    grid-template-rows: repeat(3, 248px);
+    width: 300px;
+    position: absolute;
+    left: 40px;
+    top: 550px;
+
+}
+.image-name{
+    display: flex;
+    gap: 0.8rem;
+}
+#profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.name-status{
+    width: 98px;
+    height: 34px;
+    font-style: normal;
+    line-height: 20px;
+}
+#name{
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 13px;
+}
+#status{
+    color: #EE69A4;
+    font-weight: 400px;
+    font-size: 13px;
+}
+#grid-contents{
+    width: 250px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: -0.232143px;
+    margin-top: 15px;
+    padding: 0 35px 20px 0;
+    color: #ffffff;
+}
+#grid-item{
+    background-color: #512051;
+    grid-column-gap: 2rem;
+    border-radius: 8px;
+    width: 265px;
+    height: 234px;
+    padding: 35px;
+}
+}
